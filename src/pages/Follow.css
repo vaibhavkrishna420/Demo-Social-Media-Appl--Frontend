@@ -1,0 +1,35 @@
+/* Follow.css */
+.search-users-container {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+

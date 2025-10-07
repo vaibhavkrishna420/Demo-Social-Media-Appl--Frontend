@@ -1,0 +1,29 @@
+/* src/App.css */
+.landing-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.landing-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

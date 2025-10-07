@@ -1,0 +1,56 @@
+
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background: white;
+  color: #007bff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #f2f2f2;
+}
+
+.home-main {
+  display: flex;
+  gap: 20px;
+}
+
+.home-posts {
+  flex: 2;
+}
+
+.home-messages {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  height: fit-content;
+}
+.home-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
